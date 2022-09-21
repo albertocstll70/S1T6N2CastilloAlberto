@@ -26,9 +26,13 @@ public class MainExercici2 {
 		lista.add("Montserrat");
 		lista.add("George");
 
-		generico1.generic(lista);
-
-		generico1.generic(listPersonas);
+	
+		
+		generico1.generic("Hola mundo","XY",3);
+		
+		generico1.generic("Hola mundo","m",3,1264,25665);
+		
+		generico1.generic(persona1,persona2);
 		
 		
 
